@@ -1,0 +1,2 @@
+This project is a Java programming exercise designed to showcase various concepts and features of the Java programming language. It covers topics such as object-oriented programming, data structures, algorithms, exception handling, and more.
+This project consists of multiple Java files, each focusing on a specific topic or feature. You can explore the codebase to learn about different aspects of Java programming
