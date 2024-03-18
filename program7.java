@@ -1,24 +1,19 @@
 
-
-//  11 Problem Javac_java if else;
-
 import java.util.*;
 public class program7 {
     public static void main(String[] args) {
-        Scanner sc =  new Scanner(System.in);
-        System.out.println("enter 1st  side angle of triangle");
-        int x =sc.nextInt();
-        System.out.println("enter 2nd side angle of triangle");
-        int y =sc.nextInt();
-        System.out.println("enter 3rd side angle of triangle");
-        int z =sc.nextInt();
-        if(x+y+z==180){
-            System.out.println("It is a valid triangle");
+        Scanner sc =new Scanner(System.in);
+        System.out.println("Enter a Number");
+        int i =sc.nextInt();
+        int a =1;
+        int cnt=0;
+        while(a<=i){
+            if(i%a==0){
+            // System.out.println("factors of number are :" +a);
+            cnt++;
+            }
+          a++;
         }
-        else{
-            System.out.println("Not a valid triangle");
-        }
+        System.out.println("The total factors  are :" +cnt);
     }
-
-
 }

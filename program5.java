@@ -1,14 +1,17 @@
-import java.util.*;
+
 public class program5 {
     public static void main(String[] args) {
-     Scanner sc= new Scanner (System.in);
-      System.out.println("enter the number");
-      int x=sc.nextInt();
-      if(x%5==0 && x%11==0){
-        System.out.println("the number is divisible by 5 and 11");
-      }
-      else{
-        System.out.println("the number is not divisible by 5 and 11");
-      }
+        int i=1;
+        int cnt =0;
+        while(i<=500){
+            if(i%7==0 && i%10==7){
+                // System.out.println("the required number divisible by 7 or ends with 7 are"+i);
+                cnt++;
+            }
+            
+            i++;
+          
+        }
+      System.out.println("The total of elements that are divisible by 7 and ends with 7 are :" +cnt);
     }
 }
